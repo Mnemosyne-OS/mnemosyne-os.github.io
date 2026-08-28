@@ -7,7 +7,7 @@
 
 ## The assistant people are trying to build
 
-Many people already have a word for what they want: "a Jarvis". A personal AI
+Many people already have a word for what they want: "a jarvis". A personal AI
 assistant that knows their whole history instead of the last few messages, that
 they own, and that does not hand their life to someone else's server. That is
 what Mnemosyne OS is for. The relationship layer is the mechanism; a personal AI
