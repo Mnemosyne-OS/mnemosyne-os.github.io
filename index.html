@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mnemosyne OS — the organization on GitHub</title>
+<meta name="description" content="The Mnemosyne OS organization on GitHub. Mnemosyne OS is a sovereign, local-first memory operating system by XPACEGEMS LLC: the product site, the documentation, the open packages and the benchmark audit kit, all from one place.">
+<link rel="canonical" href="https://mnemosyne-os.github.io/">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mnemosyne OS">
+<meta property="og:title" content="Mnemosyne OS — the organization on GitHub">
+<meta property="og:description" content="A sovereign, local-first memory operating system by XPACEGEMS LLC. The product site, the documentation, the open packages and the benchmark audit kit, all from one place.">
+<meta property="og:url" content="https://mnemosyne-os.github.io/">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mnemosyne OS — the organization on GitHub">
+<meta name="twitter:description" content="A sovereign, local-first memory operating system by XPACEGEMS LLC. The product, the documentation, the packages and the benchmark audit kit.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' x='2' font-size='26'%3E%E2%88%9E%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Brand",
+      "@id": "https://mnemosyne-os.io/#brand",
+      "name": "Mnemosyne OS",
+      "alternateName": [
+        "Mnemosyne Neural OS",
+        "MnemosyneOS",
+        "Mnemosyne OS Infinity Edition"
+      ],
+      "disambiguatingDescription": "The desktop memory operating system published by XPACEGEMS LLC. Installable on Windows, macOS and Linux, storing its vaults on the user’s own machine. Unrelated to the Mnemosyne spaced-repetition flashcard application, and to the open-source agent-memory libraries that share the name.",
+      "logo": "https://mnemosyne-os.io/favicon.svg",
+      "sameAs": [
+        "https://mnemosyne-os.com",
+        "https://docs.mnemosyne-os.io",
+        "https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS",
+        "https://www.reddit.com/r/MnemosyneOS/",
+        "https://x.com/MNEMOSYNE_OS",
+        "https://www.youtube.com/@MNEMOSYNE-OS",
+        "https://mnemosyne-os.io/discord"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://mnemosyne-os.io/#org",
+      "name": "XPACEGEMS LLC",
+      "url": "https://mnemosyne-os.io",
+      "brand": { "@id": "https://mnemosyne-os.io/#brand" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mnemosyne-os.github.io/#website",
+      "url": "https://mnemosyne-os.github.io/",
+      "name": "Mnemosyne OS on GitHub",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://mnemosyne-os.io/#org" },
+      "about": { "@id": "https://mnemosyne-os.io/#brand" }
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    --bg: #1b1d23; --panel: #242731; --panel2: #2a2d39; --line: #3a3e4d;
+    --txt: #d8dee9; --dim: #7d8494; --dim-sm: #9aa2b1;
+    --teal: #56b6a9; --amber: #e5b567; --green: #7bc96f;
+    --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --mono: ui-monospace, "Cascadia Code", Consolas, "SF Mono", Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--txt);
+    font-family: var(--serif); font-size: 20px; line-height: 1.6;
+  }
+  .wrap { max-width: 928px; margin: 0 auto; padding: 96px 32px 128px; }
+
+  .eyebrow {
+    font-family: var(--mono); font-size: 13px; letter-spacing: 2px;
+    text-transform: uppercase; color: var(--dim-sm); margin: 0 0 24px;
+  }
+  h1 {
+    font-size: 49px; line-height: 1.1; letter-spacing: 6px;
+    text-transform: uppercase; font-weight: 400; margin: 0 0 24px;
+  }
+  .tagline { font-size: 25px; line-height: 1.4; color: var(--teal); margin: 0 0 32px; max-width: 34ch; }
+  .intro { font-size: 20px; max-width: 68ch; margin: 0 0 16px; }
+  .intro.secondary { color: var(--dim); }
+
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(272px, 1fr));
+    gap: 16px; margin: 96px 0 0;
+  }
+  .card {
+    display: block; padding: 24px; background: var(--panel);
+    border: 1px solid var(--line); border-left: 3px solid var(--line);
+    border-radius: 8px; text-decoration: none; color: inherit;
+    transition: border-color .2s ease, background .2s ease;
+  }
+  .card:hover, .card:focus-visible { background: var(--panel2); }
+  .card.teal { border-left-color: var(--teal); }
+  .card.amber { border-left-color: var(--amber); }
+  .card.green { border-left-color: var(--green); }
+  .card.teal:hover, .card.teal:focus-visible { border-color: var(--teal); }
+  .card.amber:hover, .card.amber:focus-visible { border-color: var(--amber); }
+  .card.green:hover, .card.green:focus-visible { border-color: var(--green); }
+  .card .label {
+    display: block; font-family: var(--mono); font-size: 13px;
+    letter-spacing: 2px; text-transform: uppercase; color: var(--dim-sm); margin-bottom: 8px;
+  }
+  .card .name {
+    display: block; font-family: var(--mono); font-size: 20px;
+    margin-bottom: 16px; word-break: break-word;
+  }
+  .card.teal .name { color: var(--teal); }
+  .card.amber .name { color: var(--amber); }
+  .card.green .name { color: var(--green); }
+  .card .blurb { display: block; font-size: 16px; line-height: 1.55; color: var(--dim-sm); }
+
+  .note {
+    margin: 96px 0 0; padding: 24px; border-left: 3px solid var(--line);
+    background: var(--panel); border-radius: 0 8px 8px 0;
+  }
+  .note h2 {
+    font-family: var(--mono); font-size: 13px; letter-spacing: 2px;
+    text-transform: uppercase; color: var(--dim-sm); font-weight: 400; margin: 0 0 16px;
+  }
+  .note p { font-size: 16px; line-height: 1.6; margin: 0; max-width: 72ch; }
+  .note code { font-family: var(--mono); font-size: 14px; color: var(--amber); }
+
+  footer {
+    margin: 96px 0 0; padding-top: 24px; border-top: 1px solid var(--line);
+    font-family: var(--mono); font-size: 13px; color: var(--dim-sm);
+  }
+  footer a { color: var(--dim-sm); }
+  a:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card { transition: none; }
+  }
+  @media (max-width: 640px) {
+    .wrap { padding: 48px 24px 96px; }
+    h1 { font-size: 31px; letter-spacing: 4px; }
+    .tagline { font-size: 20px; }
+    body { font-size: 16px; }
+    .grid, .note, footer { margin-top: 64px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="eyebrow">XPACEGEMS LLC</p>
+    <h1>Mnemosyne&nbsp;OS</h1>
+    <p class="tagline">Everyone is building the intelligence. We build the relationship.</p>
+
+    <p class="intro">A sovereign, local-first memory operating system. It runs on your own
+    machine and gives an AI a persistent, governed memory of who you are and what you have
+    built together.</p>
+    <p class="intro secondary">This address is the organization's entry point on GitHub.
+    The product, the documentation and the packages live elsewhere.</p>
+
+    <nav class="grid">
+      <a class="card teal" href="https://mnemosyne-os.io">
+        <span class="label">Product</span>
+        <span class="name">mnemosyne-os.io</span>
+        <span class="blurb">Download the desktop app, read the manifesto, browse the cartridge catalog.</span>
+      </a>
+      <a class="card teal" href="https://mnemosyne-os.com">
+        <span class="label">Organizations</span>
+        <span class="name">mnemosyne-os.com</span>
+        <span class="blurb">Enterprise, research labs, public institutions, robotics. Conversations, not checkout pages.</span>
+      </a>
+      <a class="card amber" href="https://docs.mnemosyne-os.io">
+        <span class="label">Documentation</span>
+        <span class="name">docs.mnemosyne-os.io</span>
+        <span class="blurb">Every engine explained step by step, in English, French and Spanish.</span>
+      </a>
+      <a class="card amber" href="https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS">
+        <span class="label">Source</span>
+        <span class="name">Mnemosyne-Neural-OS</span>
+        <span class="blurb">The public repository. Open SDK and CLI, sealed engine: open to build on, private at the core.</span>
+      </a>
+      <a class="card amber" href="https://mnemosyne-os.io/packages">
+        <span class="label">Packages</span>
+        <span class="name">@mnemosyne_os</span>
+        <span class="blurb">The npm scope: sdk, mcp, cartridge-sdk, design-sdk, create-app, public-contracts and the forge CLI. All MIT.</span>
+      </a>
+      <a class="card green" href="https://mnemosyne-os.github.io/MnemosyneOS---benchmarks/verification-kit/">
+        <span class="label">Benchmarks</span>
+        <span class="name">the audit kit</span>
+        <span class="blurb">Per-question ledgers, the grader, and a one-command verifier. Misses listed at the same rank as hits.</span>
+      </a>
+    </nav>
+
+    <section class="note">
+      <h2>Which Mnemosyne is this?</h2>
+      <p>Several unrelated projects share the name. This one is the desktop memory operating
+      system published by XPACEGEMS LLC, at the addresses listed above. It is not the
+      Mnemosyne spaced-repetition flashcard application, and it is not the
+      <code>mnemosyne-oss</code> GitHub organization. Those are different projects by
+      different authors.</p>
+    </section>
+
+    <footer>
+      <a href="https://github.com/Mnemosyne-OS">github.com/Mnemosyne-OS</a> ·
+      <a href="mailto:dev@mnemosyne-os.com">dev@mnemosyne-os.com</a>
+    </footer>
+  </div>
+</body>
+</html>

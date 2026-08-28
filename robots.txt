@@ -1,0 +1,40 @@
+# Mnemosyne OS — https://mnemosyne-os.github.io
+#
+# ⚠️ This file governs the WHOLE mnemosyne-os.github.io host, not just this page.
+# Every project site published under the organization is covered by it, notably
+# /MnemosyneOS---benchmarks/ — the benchmark audit kit, which is the public proof
+# behind every number we publish. A Disallow added here would deindex it.
+# Keep this file permissive unless there is a deliberate reason not to.
+
+User-agent: *
+Allow: /
+
+# AI assistants and answer engines are explicitly welcome. We publish to be read.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://mnemosyne-os.github.io/sitemap.xml
