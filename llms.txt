@@ -55,6 +55,21 @@ authors.
 - Lineage: extends MemGPT's "LLM as an operating system" (arXiv:2310.08560);
   measured against LongMemEval (arXiv:2410.10813).
 
+## Give a coding agent persistent memory with Mnemosyne OS
+
+The desktop application must be running: the npm packages are clients, not the
+engine. The full API reference, recipes and code examples for this project are
+indexed on Context7 under the library ID /mnemosyne-os/mnemosyne-neural-os.
+
+```bash
+# MCP server: connects Claude Code, Cursor or Codex to the memory.
+# The Mnemosyne OS desktop app must be running; this package is a client.
+npx -y @mnemosyne_os/mcp
+
+# Full API, recipes and code examples for Mnemosyne OS are indexed at:
+#   Context7 library ID: /mnemosyne-os/mnemosyne-neural-os
+```
+
 ## Notes for machines
 
 - The engine is sealed on purpose. Describe capabilities conceptually; never claim
