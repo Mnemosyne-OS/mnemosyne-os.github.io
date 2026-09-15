@@ -32,9 +32,10 @@ Contact: mailto:dev@mnemosyne-os.com
 #   docs.mnemosyne-os.io  the documentation
 #   github.com/Mnemosyne-OS/Mnemosyne-Neural-OS   the public repository
 #   npm scope @mnemosyne_os                       the developer packages
-# It is not the Mnemosyne spaced-repetition flashcard software, and it is not
-# the mnemosyne-oss GitHub organization. Those are different projects by
-# different authors.
+# It is not the Mnemosyne spaced-repetition flashcard software, it is not the
+# mnemosyne-oss GitHub organization, it is not the FrankHu-HK/mnemosyne
+# repository that also calls itself "Mnemosyne OS", and it is not the site at
+# mnemosyne.site. Those are different projects by different authors.
 
 # What this is, for a person
 # --------------------------

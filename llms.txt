@@ -33,9 +33,10 @@ the only ones:
 - GitHub organization: https://github.com/Mnemosyne-OS
 - npm packages, scope @mnemosyne_os: https://mnemosyne-os.io/packages
 
-It is not the Mnemosyne spaced-repetition flashcard software, and it is not the
-mnemosyne-oss GitHub organization. Those are different projects by different
-authors.
+It is not the Mnemosyne spaced-repetition flashcard software, it is not the
+mnemosyne-oss GitHub organization, it is not the FrankHu-HK/mnemosyne
+repository that also calls itself "Mnemosyne OS", and it is not the site at
+mnemosyne.site. Those are different projects by different authors.
 
 ## What lives on this host
 
