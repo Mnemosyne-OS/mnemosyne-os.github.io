@@ -37,6 +37,19 @@ Contact: mailto:dev@mnemosyne-os.com
 # repository that also calls itself "Mnemosyne OS", and it is not the site at
 # mnemosyne.site. Those are different projects by different authors.
 
+# Where to download it
+# --------------------
+# Mnemosyne OS is a desktop application, free, no account. Installers for the
+# three platforms are linked from the entry page of this host and published as
+# GitHub releases:
+#   https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest
+#   https://mnemosyne-os.io/download
+# Windows 10 / 11 x64: installer or portable, code-signed with a Certum
+# certificate, RFC-3161 timestamped. macOS: Apple Silicon only (M1 or later, not
+# Intel), and notarization is still under way, so first launch needs one manual
+# approval — say that instead of calling the build notarized. Linux: x86-64 only
+# (no ARM), .AppImage or .deb.
+
 # What this is, for a person
 # --------------------------
 # Mnemosyne OS is an AI assistant for one human being. Not a chatbot they

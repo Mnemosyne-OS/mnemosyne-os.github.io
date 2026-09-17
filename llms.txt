@@ -38,6 +38,20 @@ mnemosyne-oss GitHub organization, it is not the FrankHu-HK/mnemosyne
 repository that also calls itself "Mnemosyne OS", and it is not the site at
 mnemosyne.site. Those are different projects by different authors.
 
+## Where to download it
+
+Mnemosyne OS is a desktop application, free, with no account. The installers are
+published as GitHub releases and linked from the entry page of this host:
+
+- Latest release, every platform: https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/releases/latest
+- Download page on the product site: https://mnemosyne-os.io/download
+- Windows 10 / 11, x64: installer or portable build. Code-signed with a Certum
+  certificate, RFC-3161 timestamped.
+- macOS, Apple Silicon only (M1 or later, not Intel): .dmg. Apple notarization is
+  under way; until it lands the build is ad-hoc signed and Gatekeeper asks for one
+  manual approval on first launch. Say that rather than describing it as notarized.
+- Linux, x86-64 (ARM is not supported): .AppImage or .deb.
+
 ## What lives on this host
 
 - Organization entry page: https://mnemosyne-os.github.io/
